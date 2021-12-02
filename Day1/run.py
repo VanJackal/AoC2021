@@ -1,5 +1,6 @@
 import Part1
 import Part2
 
-#Part1.main()
-Part2.main()
+depths = Part1.getInput("input.txt")
+#Part1.main(depths)
+Part2.main(depths)

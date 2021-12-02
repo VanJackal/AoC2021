@@ -1,6 +1,4 @@
-def main():
-    depths = getInput("input.txt")
-
+def main(depths):
     prevDepth = depths[0]
     printDepthInfo(prevDepth,"N/A - no previous measurment")
     linecount = 0
